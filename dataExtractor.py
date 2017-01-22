@@ -31,7 +31,7 @@ plantList = [];
 
 plantObjectCheck = '(.*),(.),(.*),(.*),(.*),(.*),"(.*)",(.*),"(.*)","(.*)",(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),"(.*)"';
 
-path_0 = "floweringplants/";
+path_0 = "plantlist_csv_files/04_08_2016/floweringplants/";
 for filename in os.listdir(path_0):
 	print filename
 	openFile = codecs.open(path_0 + filename, "r", "utf8");
@@ -43,7 +43,7 @@ for filename in os.listdir(path_0):
 		else: print "plantObject no match %s" % line;
 	openFile.close();
 
-path_1 = "conifers/";
+path_1 = "plantlist_csv_files/04_08_2016/conifers/";
 for filename in os.listdir(path_1):
 	print filename
 	openFile = codecs.open(path_1 + filename, "r", "utf8");
@@ -55,7 +55,7 @@ for filename in os.listdir(path_1):
 		else: print "plantObject no match %s" % line;
 	openFile.close();
 
-path_2 = "ferns/";
+path_2 = "plantlist_csv_files/04_08_2016/ferns/";
 for filename in os.listdir(path_2):
 	print filename
 	openFile = codecs.open(path_2 + filename, "r", "utf8");
@@ -67,7 +67,7 @@ for filename in os.listdir(path_2):
 		else: print "plantObject no match %s" % line;
 	openFile.close();
 
-path_3 = "mosses/";
+path_3 = "plantlist_csv_files/04_08_2016/mosses/";
 for filename in os.listdir(path_3):
 	print filename
 	openFile = codecs.open(path_3 + filename, "r", "utf8");
